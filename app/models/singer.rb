@@ -1,4 +1,5 @@
 class Singer < ApplicationRecord
+  has_many :concerts
   include Devise::JWT::RevocationStrategies::JTIMatcher
 
   devise :database_authenticatable, :registerable, :validatable,

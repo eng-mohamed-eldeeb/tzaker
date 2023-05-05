@@ -31,4 +31,11 @@ Rails.application.routes.draw do
     registrations: 'singers/registrations'
   }
 
+  
+  resources :tikits
+  resources :concerts
+  resources :singers
+  resources :venues
+  resources :companies
+
 end
