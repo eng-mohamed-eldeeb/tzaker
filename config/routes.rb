@@ -30,8 +30,9 @@ Rails.application.routes.draw do
     sessions: 'singers/sessions',
     registrations: 'singers/registrations'
   }
-
-  
+  get 'concerts/:id/tikits', to: 'concerts#show_concert_tikits'
+  get 'concerts/:id/tikits_count', to: 'concerts#show_concert_tikits_count'
+  get 'concerts/:id/tikits_price', to: 'concerts#show_concert_tikits_price'
   resources :tikits
   resources :concerts
   resources :singers
