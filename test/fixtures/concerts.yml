@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  silver_seats_price: 1
+  gold_seats_price: 1
+  platinum_seats_price: 1
+  dare: 2023-05-05
+  stat_time: 2023-05-05 15:08:08
+  end_time: 2023-05-05 15:08:08
+  singer: one
+  company: one
+  starus: one
+  venue: one
+
+two:
+  silver_seats_price: 1
+  gold_seats_price: 1
+  platinum_seats_price: 1
+  dare: 2023-05-05
+  stat_time: 2023-05-05 15:08:08
+  end_time: 2023-05-05 15:08:08
+  singer: two
+  company: two
+  starus: two
+  venue: two
