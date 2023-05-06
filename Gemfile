@@ -7,6 +7,10 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'jsonapi-serializer'
 gem 'sprockets', '~> 4.0'
+gem "sprockets-rails"
+gem "turbo-rails"           
+gem "stimulus-rails"        
+gem "jbuilder"              
 
 # gem 'rspec-rails', '2.6.1'
 gem 'webrat', '0.7.1'
