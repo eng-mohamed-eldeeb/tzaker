@@ -191,6 +191,10 @@ GEM
       dry-configurable (>= 0.13, < 2)
       jwt (~> 2.1)
       warden (~> 1.2)
+    webrat (0.7.1)
+      nokogiri (>= 1.2.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5.3)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -212,6 +216,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.3)
   sprockets (~> 4.0)
   tzinfo-data
+  webrat (= 0.7.1)
 
 RUBY VERSION
    ruby 3.1.3p185
