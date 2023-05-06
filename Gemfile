@@ -9,7 +9,6 @@ gem 'jsonapi-serializer'
 gem 'sprockets', '~> 4.0'
 
 gem 'rspec-rails', '2.6.1'
-gem 'rspec-rails', '2.6.1'
 gem 'webrat', '0.7.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
